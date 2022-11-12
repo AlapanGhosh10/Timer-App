@@ -1,0 +1,34 @@
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  font-size: 3ch;
+}
+span {
+  font-size: 12px;
+  color: green;
+  font-weight: 300;
+}
+button {
+  padding: 0.5vw;
+  margin: 1vw;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    width: 100px;
+  }
+}
